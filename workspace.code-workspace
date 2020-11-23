@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\official"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\__MACOSX"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "official"
+	}
+}

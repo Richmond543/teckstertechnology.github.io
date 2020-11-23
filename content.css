@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+@import url('https://themes.googleusercontent.com/fonts/css?kit=si-YBcCRm_GHkqWUMR-1v-kZJ3E0l-7VlmfEQwldp70');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+ background-color: #888;
+}
+.navigation
+{
+    position:fixed;
+    width: 60px;
+    height:100%;
+    background:#0f3057;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.navigation:hover,
+.navigation.active
+{
+    width: 300px;
+}
+.navigation ul
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+     
+}
+.navigation ul li
+{
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+.navigation ul li a:hover
+{
+    color:#ddd;
+}
+.navigation ul li a
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    display:flex;
+    text-decoration: none;
+    color:#ddd;
+}
+.navigation ul li a .icon
+{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.navigation ul li a .icon .fa
+{
+    font-size: 24px;
+}
+.navigation ul li a .title
+{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+}
+.toggle
+{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background:#fff;
+    cursor: pointer;
+}
+
+.toggle:active
+{
+    background:#ddd;
+}
+.toggle:before
+{
+    content: '\f0c9';
+    font-family: fontAwesome;
+    position: absolute;
+    width:100%;
+    height:100%;
+    line-height: 60px;
+    text-align:center;
+    font-size: 24px;
+    color:#0f3057;
+}
+.toggle.active:before
+{
+    content: '\f00d';
+
+}
+
+@media (max-width: 767px)
+{
+.navigation
+{
+left: -60px;
+}
+.navigation.active
+{
+left: 0px;
+width: 100%;
+}
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    width: 100%;
+    align-items: center;
+    background-color:#fff;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+      width: 25%;
+    color:#0f3057;
+    float: left;
+    text-align: center;
+    padding: 19px 23.5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  /* Change the color of links on hover */
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color:#14274e;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+  font-family: chivo;
+  padding-left: 80%;
+  padding-right: 50%;
+  align-content: center;
+  align-items: center;
+  background-color:#fff;
+  text-align: center;
+  border: 3px solid #0f3057;
+  border-radius: 5px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  
+}
+
+p {
+  word-spacing: 30px;
+}
+
